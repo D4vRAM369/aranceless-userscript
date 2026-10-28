@@ -1,0 +1,6 @@
+# Transcripts de sesiones: contienen rutas del equipo y datos privados
+docs/transcripts/
+
+# Estado local de herramientas de IA
+.omc/
+.claude/
