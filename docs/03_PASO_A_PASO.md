@@ -83,3 +83,18 @@
 **Riesgo:** sigue siendo automatización. Si reaparece el bloqueo de Temu, bajar `MORE_GOAL` o desactivar el arranque automático.
 
 **Pendiente:** verificar la autocarga en Temu real (hasta ahora solo probada en la réplica local).
+
+## Paso 7: Publicación (2026-10-28)
+
+- Proyecto movido a una carpeta propia y convertido en repo git.
+- Cabecera con `@author D4vRAM369`, `@license MIT`, `@updateURL`/`@downloadURL` (raw de GitHub) y `@namespace` del repo.
+- `README.md` con el banner SVG, badges, instalación, límites, privacidad y resumen en inglés. `LICENSE` MIT. `.gitignore` con `docs/transcripts/` y `.omc/`.
+- Repo público creado: https://github.com/D4vRAM369/aranceless-userscript (commit `07c5b24`, 7 temas).
+- Difusión en Reddit con posts que declaran la autoría: r/userscripts (AranceLess), r/fossdroid (Allowance Privacy), r/ClaudeAI (ProfesorIA). Pendientes de permiso de los mods: r/spain y la comunidad de Plaud.
+
+## Sesión 1 — 2026-10-28 · Resumen
+
+**Progreso:** de la pregunta "¿es posible?" a AranceLess v0.7.0 publicado en GitHub.
+**Conceptos nuevos:** userscripts, MutationObserver, selectores acotados, parámetros y hash de URL, async/await con jitter, antibot/CAPTCHA, prueba de control, fixtures, @updateURL, licencias MIT/GPL, promoción honesta en comunidades.
+**Errores resueltos:** etiqueta "Local" mal supuesta, `DOMContentLoaded` tardío, etiquetas en la cesta, lista de países en `shipFromCountry`, falso culpable del antibot.
+**Próximo paso:** probar la v0.7.0 en Temu real con la sesión ya desbloqueada; GreasyFork; idiomas para la autocarga.
