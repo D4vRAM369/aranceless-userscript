@@ -3,6 +3,8 @@
 ![AranceLess: ¿3 € de arancel por artículo? No, gracias](assets/banner.svg)
 
 [![Versión](https://img.shields.io/badge/versión-0.7.0-003399)](aranceless.user.js)
+[![Greasy Fork](https://img.shields.io/greasyfork/v/602577?label=Greasy%20Fork&color=670000)](https://greasyfork.org/es/scripts/602577-aranceless-solo-stock-ue-en-aliexpress-y-temu)
+[![Instalaciones](https://img.shields.io/greasyfork/dt/602577?label=instalaciones&color=670000)](https://greasyfork.org/es/scripts/602577-aranceless-solo-stock-ue-en-aliexpress-y-temu)
 [![Licencia MIT](https://img.shields.io/badge/licencia-MIT-ffcc00)](LICENSE)
 [![Arancel](https://img.shields.io/badge/arancel-0_€-2ea44f)](#por-qué-existe)
 [![AliExpress](https://img.shields.io/badge/AliExpress-✓-e62e04)](#aliexpress)
@@ -46,7 +48,7 @@ Esto **no evade nada**: comprar a un almacén de la UE es completamente legal. S
 1. Instala un gestor de userscripts:
    - **Firefox:** [Violentmonkey](https://addons.mozilla.org/firefox/addon/violentmonkey/) o [Tampermonkey](https://addons.mozilla.org/firefox/addon/tampermonkey/)
    - **Chrome / Brave / Edge:** [Tampermonkey](https://chromewebstore.google.com/detail/dhdgffkkebhmkfjojejmpbldmpobfkfo)
-2. **[👉 Instalar AranceLess](https://raw.githubusercontent.com/D4vRAM369/aranceless-userscript/main/aranceless.user.js)**: el gestor te ofrecerá instalarlo.
+2. **[👉 Instalar desde Greasy Fork](https://greasyfork.org/es/scripts/602577-aranceless-solo-stock-ue-en-aliexpress-y-temu)** (recomendado) o **[directamente desde GitHub](https://raw.githubusercontent.com/D4vRAM369/aranceless-userscript/main/aranceless.user.js)**: el gestor te ofrecerá instalarlo.
 3. **Solo en Chrome, Brave y Edge:** ve a `chrome://extensions` (o `brave://extensions`) → Tampermonkey → **Detalles** y activa **"Permitir scripts de usuario"**.
 4. Recarga AliExpress o Temu.
 
@@ -79,7 +81,7 @@ Toda la historia del proyecto (decisiones, errores reales y cómo se depuraron) 
 
 - **AliExpress:** forces the official "Ship from: European Union" filter, tags each product and hides ads.
 - **Temu:** keeps only items with the green "Local" label, auto-loads more results at a human pace (3–4 s) and adds a shortcut to search inside Temu's Local Warehouse.
-- **Install:** [click here](https://raw.githubusercontent.com/D4vRAM369/aranceless-userscript/main/aranceless.user.js) with Tampermonkey or Violentmonkey installed. On Chromium browsers, enable **"Allow user scripts"** in the extension details.
+- **Install:** from [Greasy Fork](https://greasyfork.org/en/scripts/602577-aranceless-solo-stock-ue-en-aliexpress-y-temu) or [straight from GitHub](https://raw.githubusercontent.com/D4vRAM369/aranceless-userscript/main/aranceless.user.js), with Tampermonkey or Violentmonkey installed. On Chromium browsers, enable **"Allow user scripts"** in the extension details.
 - No network requests, no tracking (`@grant none`).
 
 ---
